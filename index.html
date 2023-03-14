@@ -10,6 +10,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
+    <script src="https://kit.fontawesome.com/8003b6effc.js" crossorigin="anonymous"></script>
     <title>Whiskey Drop | Taste a new whiskey every month</title>
 </head>
 
@@ -19,16 +20,22 @@
         <ul class="navbar-nav mr-auto">
             <li class="active nav-item mr-2"><a href="##" class="nav-link">Home</a></li>
             <li class="nav-item mr-2"><a href="##" class="nav-link">About</a></li>
-            <p class="navbar-text my-auto mr-2"><i>Great Whiskey</i></p>
+            <li class="nav-item mr-2 d-block d-sm-none"><a href="##" class="nav-link">Sign In / Sign Up</a></li>
         </ul>
+        <div class="d-none d-md-block ">
+            <p class="navbar-text my-auto mr-2"><i>Great Whiskey</i></p>
+            <a href="##">Sign In / Sign Up</a>
+        </div>
     </nav>
-    <article class="container">
+    <article class="container mt-3">
         <!-- Callout section -->
         <div class="row">
             <div class="col-12">
-                <section class="callout">
+                <section class="callout jumbotron text-center">
                     <h1>The finest whiskeys delivered to your doorstep.</h1>
-                    <p class="lead">Sign up today to start tasting the worlds best whiskeys!<s> €19.00</s>
+                    <p class="lead">Sign up today to start tasting the worlds best whiskeys!<s
+                            class="d-none d-sm-inline"> €19.00</s>
+                        <span class="d-inline d-sm-none"><br></span>
                         <strong><mark>First
                                 one free!</mark></strong></p>
                     <button class="btn btn-success btn-lg">Sign Up</button>
@@ -42,16 +49,24 @@
         <!-- Quotes -->
         <section class="quotes">
             <div class="row">
-                <div class="col-12">
+                <div class="col-12 my-5">
                     <h2 class="text-uppercase">Quotes:</h2>
                 </div>
             </div>
             <div class="row">
                 <div class="col-12 col-md-6">
-                    <blockquote class="blockquote">
-                        <p>Lorem ipsum</p>
-                        <p>- Jane Doe</p>
-                    </blockquote>
+                    <div class="media">
+                        <div class="d-none d-sm-block">
+                            <img src="images/review-girl.jpg" alt="jane-doe-placeholder" class="rounded-circle mr-3"
+                                height="100" width="100">
+                        </div>
+                        <div class="media-body">
+                            <blockquote class="blockquote">
+                                <p>Lorem ipsum</p>
+                                <p>- Jane Doe</p>
+                            </blockquote>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -61,7 +76,7 @@
         <!-- Features -->
         <section class="features">
             <div class="row">
-                <div class="col-12">
+                <div class="col-12 my-5">
                     <h2 class="text-uppercase">Features:</h2>
                 </div>
             </div>
